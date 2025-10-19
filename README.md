@@ -1,8 +1,8 @@
-<<<<<<< HEAD
-# theory-of-coding-project
+
+## theory-of-coding-project
 Simulation of Huffman compression + Hamming error correction with BER plotting and Shannon threshold comparison. Built for Theory of Coding course.
 =======
-# Theory of Coding Project — Huffman + Hamming Coding with Shannon Threshold Visualization
+## Theory of Coding Project — Huffman + Hamming Coding with Shannon Threshold Visualization
 
 This project combines **Huffman compression** and **Hamming error correction** to simulate a **noisy communication channel** and evaluate performance against the **Shannon limit**. It visualizes how the **bit error rate (BER)** changes based on the probability of bit flips, using the expression:
 
@@ -12,7 +12,7 @@ x = \frac{1 - p}{p}
 
 ---
 
-##  Objectives
+###  Objectives
 
 - Compress a random symbol sequence using **Huffman Coding**
 - Encode the compressed bitstream using **Hamming (n, k) block code**
@@ -22,7 +22,7 @@ x = \frac{1 - p}{p}
 
 ---
 
-##  How to Run
+###  How to Run
 
 ```bash
 python hamming.py
@@ -37,7 +37,7 @@ The program will prompt:
 
 ---
 
-## 📁 Code Structure
+### Code Structure
 
 | Section | Functionality |
 |---------|---------------|
@@ -50,7 +50,7 @@ The program will prompt:
 
 ---
 
-##  Example Output
+###  Example Output
 
 -  Huffman Codes Generated  
 -  G & H Matrices Printed  
@@ -63,7 +63,7 @@ The final plot **shows how reliable the channel is compared to the Shannon limit
 
 ---
 
-##  Requirements
+###  Requirements
 
 Install dependencies with:
 
@@ -73,7 +73,7 @@ pip install numpy scipy matplotlib
 
 ---
 
-##  Theoretical Background
+###  Theoretical Background
 
 | Concept | Description |
 |---------|-------------|
@@ -83,16 +83,16 @@ pip install numpy scipy matplotlib
 
 ---
 
-##  License / Usage
+###  License / Usage
 
 This project was developed for academic purposes under the **Theory of Coding** course.  
 You may reuse or extend it for learning and research with proper credit.
 
 ---
 
-##  Author
+###  Author
 
 **Eli**
 
 Theory of Coding – University Project
->>>>>>> 87ff4a9 (project file added)
+
