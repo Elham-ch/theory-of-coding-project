@@ -7,7 +7,7 @@
 This project combines **Huffman compression** and **Hamming error correction** to simulate a **noisy communication channel** and evaluate performance against the **Shannon limit**. It visualizes how the **bit error rate (BER)** changes based on the probability of bit flips, using the expression:
 
 \[
-x = \frac{1 - p}{p}
+x = \frac {1 - p}{p}
 \]
 
 ---
