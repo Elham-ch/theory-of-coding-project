@@ -1,14 +1,12 @@
 
-## theory-of-coding-project
-## Simulation of Huffman compression + Hamming error correction with BER plotting and Shannon threshold comparison. Built for Theory of Coding course.
-=======
-## Theory of Coding Project — Huffman + Hamming Coding with Shannon Threshold Visualization
+### theory-of-coding-project
+### Simulation of Huffman compression + Hamming error correction with BER plotting and Shannon threshold comparison. Built for Theory of Coding course.
 
-This project combines **Huffman compression** and **Hamming error correction** to simulate a **noisy communication channel** and evaluate performance against the **Shannon limit**. It visualizes how the **bit error rate (BER)** changes based on the probability of bit flips, using the expression:
+### Theory of Coding Project — Huffman + Hamming Coding with Shannon Threshold Visualization
 
-\[
-x = \frac {1 - p}{p}
-\]
+This project combines **Huffman compression** and **Hamming error correction** to simulate a **noisy communication channel** and evaluate performance against the **Shannon limit**. It visualizes how the **bit error rate (BER)** changes based on the probability of bit flips
+
+
 
 ---
 

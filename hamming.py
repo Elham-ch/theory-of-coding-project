@@ -7,10 +7,10 @@ import numpy as np
 from scipy.optimize import fsolve
 import math
 
-# Global variable to store column swaps
+
 column_swaps = []
 
-# Step 1: Huffman Coding
+
 def build_huffman_tree(symbols, probs):
     heap = [(prob, char, None, None) for char, prob in zip(symbols, probs)]
     heapq.heapify(heap)
@@ -32,7 +32,7 @@ def generate_huffman_codes(tree, current_code="", codes=None):
         generate_huffman_codes(right, current_code + "1", codes)
     return codes
 
-# New function to decode Huffman codes
+
 def huffman_decode(encoded_message, huffman_codes):
     reverse_codes = {v: k for k, v in huffman_codes.items()}
     decoded = ""
@@ -310,7 +310,7 @@ for p in p_list:
 fig, ax = plt.subplots(figsize=(8, 6))
 ax.plot(p_x, p_error, marker='o', linestyle='-', color='b', label=r"$p_{\mathrm{error}}$")
 ax.set_xscale('log')
-ax.set_yscale('symlog', linthresh=1e-5)   # 👈 اضافه شده
+ax.set_yscale('symlog', linthresh=1e-5)   
 ax.axhline(y=0, color="black", linestyle="--")
 ax.axvline(x=1, color="grey", linestyle=":")
 ax.axvline(x=a, color="red", linestyle="-", label=r"$x=(1-p)/p$")
