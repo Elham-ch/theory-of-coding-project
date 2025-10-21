@@ -85,12 +85,3 @@ pip install numpy scipy matplotlib
 
 This project was developed for academic purposes under the **Theory of Coding** course.  
 You may reuse or extend it for learning and research with proper credit.
-
----
-
-###  Author
-
-**Eli**
-
-Theory of Coding – University Project
-
